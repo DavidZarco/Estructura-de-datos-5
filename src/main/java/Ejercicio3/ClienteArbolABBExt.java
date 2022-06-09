@@ -13,22 +13,23 @@ public class ClienteArbolABBExt {
     
       ArbolABBExt<Integer> tree = new ArbolABBExt<>();
       
-      tree.add(1);
-      tree.add(2);
-      tree.add(3);
-      tree.add(4);
-      tree.add(5);
-      tree.add(6);
-      tree.add(7);
-      tree.add(8);
+      tree.add(20);
       tree.add(9);
+      tree.add(92);
+      tree.add(90);
       tree.add(10);
-      tree.add(11);
-      tree.add(12);
+      tree.add(31);
+      tree.add(99);
+      tree.add(19);
+      tree.add(3);
       tree.add(13);
-      tree.add(14);
+      tree.add(84);
+      tree.add(55);
+      tree.add(4);
+      tree.add(17);
       
-      //System.out.println("parametro 6: " + tree.min());
+      System.out.println("Nodo con menor valor de clave: " + tree.min());
+      System.out.println("Nodo con mayor valor de clave: " + tree.max());
         
     }
 }
