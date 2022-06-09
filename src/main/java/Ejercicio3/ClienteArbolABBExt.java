@@ -1,8 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Ejercicio3;
+
+import ar.edu.uner.fcad.ed.arbolesabbyavl.ArbolABB;
 
 /**
  *
@@ -10,4 +8,28 @@ package Ejercicio3;
  */
 public class ClienteArbolABBExt {
     
+    public static void main(String[] args) {
+        
+    
+      ArbolABBExt<Integer> tree = new ArbolABBExt<>();
+      
+      tree.add(1);
+      tree.add(2);
+      tree.add(3);
+      tree.add(4);
+      tree.add(5);
+      tree.add(6);
+      tree.add(7);
+      tree.add(8);
+      tree.add(9);
+      tree.add(10);
+      tree.add(11);
+      tree.add(12);
+      tree.add(13);
+      tree.add(14);
+      
+      //System.out.println("parametro 6: " + tree.min());
+        
+    }
 }
+//que down mal bldo que MOGOLICOO
